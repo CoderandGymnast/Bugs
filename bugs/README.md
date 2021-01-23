@@ -6,10 +6,10 @@
 * **Reason**: ATLAS has not installed.
 * **Solution**:
 ```
-sudo add-apt-repository universe
-sudo add-apt-repository main
-sudo apt-get update 
-sudo apt-get install libatlas-base-dev liblapack-dev libblas-dev
+sudo add-apt-repository universe &\
+sudo add-apt-repository main &\
+sudo apt-get update &\
+sudo apt-get install -y libatlas-base-dev liblapack-dev libblas-dev
 ```
 
 2. "ImportError: attempted relative import with no known parent package": 
