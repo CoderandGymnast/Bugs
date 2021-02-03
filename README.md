@@ -37,3 +37,20 @@ import snowboydetect
 > **DBKG** (Debian Package) Low - level system tool to manage Debian - related files (.deb).
 
 > **Ubuntu** vs. **Debian**: Ubuntu provides user a polished Linux distro, debian on the other hand, provide user a Linux distro based on free software. Ubuntu cares about user friendly, debian care about freedom.
+
+## III. Kali Linux: 
+1. "Failed to execute child process "dbus-lunch"": 
+* Reason: Missing dependency **dbus-lunch**.
+* Solution: 
+
+Terminate Kali Linux process:
+```
+vncserver --kill :* &&\ 
+kex kill &&\
+kex stop
+```
+
+Install missing dependencies:
+```
+sudo apt-get update && sudo apt-get install -y dbus-x11
+```
