@@ -31,7 +31,7 @@ import snowboydetect
 > Make: Requires **Makefile** defines set of tasks to be executed. In Snowboy source code, the **Makefile** defines set of tasks to generate the **snowboydetect.py** file.
 
 ## II. Ubuntu: 
-1. "E: Could not get lock /var/lib/dpkg/lock": 
+1. "E: Could not get lock /var/lib/dpkg/lock-frontend": 
 * Reason: Another process is using the resource.
 * Solution: Terminate all WSLII processes or restart the Windows machine.
 > **DBKG** (Debian Package) Low - level system tool to manage Debian - related files (.deb).
