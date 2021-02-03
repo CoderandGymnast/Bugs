@@ -30,6 +30,20 @@ import snowboydetect
 * Reason: Snowboy only supports for **Unix-like** OS.
 > Make: Requires **Makefile** defines set of tasks to be executed. In Snowboy source code, the **Makefile** defines set of tasks to generate the **snowboydetect.py** file.
 
+### I.2. SpeechRecognition: 
+1. "AttributeError: Could not find PyAudio; check installation": 
+* Reason: Missing dependency **PyAudio**.
+* Solution: 
+```
+sudo apt-get install portaudio19-dev python-all-dev python3-all-dev && pip install pyaudio
+```
+
+2. GCC: 
+* Solution: 
+```
+sudo apt install build-essential && \ sudo apt-get install manpages-dev
+```
+
 ## II. Ubuntu: 
 1. "E: Could not get lock /var/lib/dpkg/lock-frontend": 
 * Reason: Another process is using the resource.
