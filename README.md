@@ -68,3 +68,8 @@ Install missing dependencies:
 ```
 sudo apt-get update && sudo apt-get install -y dbus-x11
 ```
+
+## IV. Google Colab: 
+1. "UnicodeDecodeError: 'utf-8' codec can't decode byte '0x...' in position ...: invalid start byte"
+* Reason: Upload files from Windows environment (Host machine) to Google Drive (Cloud environment) might has some problems.
+* Solution: Manually copy.
