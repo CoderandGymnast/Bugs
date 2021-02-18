@@ -44,6 +44,11 @@ sudo apt-get install portaudio19-dev python-all-dev python3-all-dev && pip insta
 sudo apt install build-essential && \ sudo apt-get install manpages-dev
 ```
 
+3.  Unable to run speech_recognition script:
+* Reason: 
+- Inappropriate Python environment. PyAudio is only compatible with Python 2.7, 3.4, 3.5, and 3.6. [Reference](https://people.csail.mit.edu/hubert/pyaudio/#:%7E:text=Note%3A%20As%20of%20this%20update,4).
+* Solution: Setup appropriate Python environment.
+
 ## II. Ubuntu: 
 1. "E: Could not get lock /var/lib/dpkg/lock-frontend": 
 * Reason: Another process is using the resource.
