@@ -1,0 +1,6 @@
+# Notes: 
+## 1. CMake: 
+* CMake is an open-source, cross-platform family of tools designed to build, test and package software.
+
+## 2. Dlib: 
+* Dlib is a modern C++ toolkit containing machine learning algorithms and tools for creating complex software in C++ to solve real world problems.
