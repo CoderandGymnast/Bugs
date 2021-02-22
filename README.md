@@ -49,6 +49,13 @@ sudo apt install build-essential && \ sudo apt-get install manpages-dev
 - Inappropriate Python environment. PyAudio is only compatible with Python 2.7, 3.4, 3.5, and 3.6. [Reference](https://people.csail.mit.edu/hubert/pyaudio/#:%7E:text=Note%3A%20As%20of%20this%20update,4).
 * Solution: Setup appropriate Python environment.
 
+4. "OSError: libespeak.so.1: cannot open shared object file: No such file or directory": 
+* Solution: 
+```
+sudo apt-get update && sudo apt-get install espeak
+```
+* [Reference](https://stackoverflow.com/questions/32499491/python-text-to-speech-using-pyttsx).
+
 ## II. Ubuntu: 
 1. "E: Could not get lock /var/lib/dpkg/lock-frontend": 
 * Reason: Another process is using the resource.
@@ -82,3 +89,16 @@ sudo apt-get update && sudo apt-get install -y dbus-x11
 1. "UnicodeDecodeError: 'utf-8' codec can't decode byte '0x...' in position ...: invalid start byte"
 * Reason: Upload files from Windows environment (Host machine) to Google Drive (Cloud environment) might has some problems.
 * Solution: Manually copy.
+
+## V. Face recognition (face_recognition):
+1. "CMake must be installed to build the following extensions: _dlib_pybind11": 
+* Reason: Missing CMake.
+* Solution: 
+```
+pip install cmake
+```
+
+2. Can not connect to host machine camera from VM: 
+* Just connect, avoid error, & wait :) However, the performance is f*cking bad.
+
+
