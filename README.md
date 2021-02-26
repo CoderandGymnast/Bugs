@@ -101,7 +101,17 @@ pip install cmake
 2. Can not connect to host machine camera from VM: 
 * Just connect, avoid error, & wait :) However, the performance is f*cking bad.
 
+3. "ERROR: dlib-19.8.1-cp36-cp36m-win_amd64.whl is not a supported wheel on this platform": 
+* Reason: Inappropriate Python version.
+* Solution:
+```
+conda install python==3.6.12
+```
 
+4. Install "dlib" on Windows: 
+```
+python -m pip install https://files.pythonhosted.org/packages/0e/ce/f8a3cff33ac03a8219768f0...2d54bfcf
+```
 
 
 
