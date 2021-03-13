@@ -64,6 +64,13 @@ sudo apt-get update && sudo apt-get install espeak
 
 > **Ubuntu** vs. **Debian**: Ubuntu provides user a polished Linux distro, debian on the other hand, provide user a Linux distro based on free software. Ubuntu cares about user friendly, debian care about freedom.
 
+2. "Failed to install file: not supported": 
+* Reason: Ubuntu Software is getting crazy:)
+* Solution: Install using terminal
+```
+sudo dpkg -i <file name>.deb
+```
+
 ## III. Kali Linux: 
 1. "Failed to execute child process "dbus-lunch"": 
 * Reason: Missing dependency **dbus-lunch**.
