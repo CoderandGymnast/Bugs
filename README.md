@@ -59,10 +59,13 @@ sudo apt-get update && sudo apt-get install espeak
 ## II. Ubuntu: 
 1. "E: Could not get lock /var/lib/dpkg/lock-frontend": 
 * Reason: Another process is using the resource.
-* Solution: Terminate all WSLII processes or restart the Windows machine.
+* Solution: 
+- Solution 1: Terminate all WSLII processes or restart the Windows machine.
 > **DBKG** (Debian Package) Low - level system tool to manage Debian - related files (.deb).
 
 > **Ubuntu** vs. **Debian**: Ubuntu provides user a polished Linux distro, debian on the other hand, provide user a Linux distro based on free software. Ubuntu cares about user friendly, debian care about freedom.
+
+ - Solution 2: Check & finish all install/download process.
 
 2. "Failed to install file: not supported": 
 * Reason: Ubuntu Software is getting crazy:)
