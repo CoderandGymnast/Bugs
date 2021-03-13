@@ -113,5 +113,9 @@ conda install python==3.6.12
 python -m pip install https://files.pythonhosted.org/packages/0e/ce/f8a3cff33ac03a8219768f0...2d54bfcf
 ```
 
+## VI. Java: 
+1. "Could not find or load main class":
+* Reason: Path name contains special characters.
+
 
 
