@@ -67,6 +67,8 @@ sudo apt-get update && sudo apt-get install espeak
 
  - Solution 2: Check & finish all install/download process.
 
+- Solution 3: Restart terminal.
+
 2. "Failed to install file: not supported": 
 * Reason: Ubuntu Software is getting crazy:)
 * Solution: Install using terminal
