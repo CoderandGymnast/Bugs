@@ -129,5 +129,9 @@ python -m pip install https://files.pythonhosted.org/packages/0e/ce/f8a3cff33ac0
 1. "Could not find or load main class":
 * Reason: Path name contains special characters.
 
+## VII. Android Studio: 
+1. Android Studio does not recognize physical device: 
+* Solution: Run VM to "wake it up":)
+
 
 
