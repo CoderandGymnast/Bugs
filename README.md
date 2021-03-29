@@ -133,7 +133,7 @@ python -m pip install https://files.pythonhosted.org/packages/0e/ce/f8a3cff33ac0
 1. Android Studio does not recognize physical device: 
 * Solution: Run VM to "wake it up":)
 
-2. Debug does seem correct:
+2. Debug or application's behaviors does not make sence:
 * Solution: Just rebuild the application.
 
 
