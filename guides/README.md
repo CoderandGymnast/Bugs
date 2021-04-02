@@ -61,10 +61,14 @@ E.g., NIC (Network Interface Card/Ethernet adapter).
 
 ### II. Commands: 
 1. Check LAN IP address: 
-* Windows: Wireless LAN adapter Wi-Fi.
-  - Solution 1: 
+* Solutions:
+  - Solution 1: Check "Wireless LAN adapter Wi-Fi."
 ```
 ipconfig
 ```
 
   - Solution 2: Wifi Settings.
+
+2. Check default gateway IP address: 
+* Definition: Default gateway, LAN DNS server or rounter are the same.
+* Solution: Find "Network Connection Details"
