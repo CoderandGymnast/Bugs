@@ -88,3 +88,7 @@ echo $X
 su - [username A]
 echo $X
 ```
+
+2. sudo -s vs. sudo su -:
+* sudo -s: Run shell + Ignore previous user's environment variables.
+* sudo su -: Switch to root environment + Ignore previous user's environment variables.
