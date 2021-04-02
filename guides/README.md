@@ -80,3 +80,11 @@ ipconfig
 1. su vs. su -:
 * su - : Login shell + Switch user + Clean previous user's environment variables.
 * su: Normal shell + Switch user.
+E.g. 
+```
+export X=1
+su [username A]
+echo $X
+su - [username A]
+echo $X
+```
