@@ -73,7 +73,7 @@ ipconfig
 * Definition: Default gateway, LAN DNS server or rounter are the same.
 * Solution: Find "Network Connection Details"
 
-### Network interface: 
+### III. Network interface: 
 * Definition: 
   -  A point of interconnection between a computer and a private or public network.
   - Can be a NIC or software.
@@ -81,6 +81,21 @@ ipconfig
 E.g., Loopback interface is not a physical device but a piece of software simulating a network interface
 
 * Conslusion: NIC contains network interfaces.
+
+### IV. WMWare network connection: 
+* Definition: 
+  - NAT (Network Address Translation): A method to map LAN IP addresses to public IP addresses.
+  - VMWare NAT Virtual Network: NAT gives a virtual machine access to network resources using the host computer's IP address.
+
+### V. Virtual Network: 
+* Physical underlay:  Physical infrastructures (Devices, rounters, modems, switches, hubs,...)
+* Virtual overlay: Logical.
+
+* Fabric: All of the physical components required to run a single instance of virtual networking environments or infrastructures.
+* TEP (Tunnel End Point): Belongs to Fabric + The point virtual network reaches physical network.
+* Rounter: 
+  - Physical rounters: Connect to both physical networks & virtual networks.
+
 
 # UNIX-like authentication/authorization: 
 ## I. Definitions:
