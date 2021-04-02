@@ -72,6 +72,14 @@ ipconfig
 * Definition: Default gateway, LAN DNS server or rounter are the same.
 * Solution: Find "Network Connection Details"
 
+### Network interface: 
+* Definition: 
+  -  A point of interconnection between a computer and a private or public network.
+  - Can be a NIC or software.
+E.g., Loopback interface is not a physical device but a piece of software simulating a network interface
+
+* Conslusion: NIC contains network interfaces.
+
 # UNIX-like authentication/authorization: 
 ## I. Definitions:
 * User environment: User variable environments
