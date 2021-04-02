@@ -18,6 +18,8 @@ sudo apt-get install -y libatlas-base-dev liblapack-dev libblas-dev
 
 # Computer network:
 
+## Day 1:
+
 ### I. Basic
 
 * Network interface: A network interface is the point of interconnection between a computer and a private or public network.
@@ -47,4 +49,14 @@ netstat -tln
 #### II.3. Advantages:
 * Scalability(Only Cloud VPS).
 * Increase securities.
+
+## Day 2: 
+
+### I. Network adapter: 
+* Definition: Computer hardware + Network connection provider.
+* Types: 
+  - Wired network adapter.
+  - Wireless network adapter.
+E.g., NIC (Network Interface Card/Ethernet adapter).
+
 
