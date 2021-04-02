@@ -8,6 +8,14 @@ sudo add-apt-repository main &\
 sudo apt-get install -y libatlas-base-dev liblapack-dev libblas-dev
 ```
 
+## II. Libs/APIs definition:
+### 1. CMake: 
+* CMake is an open-source, cross-platform family of tools designed to build, test and package software.
+
+### 2. Dlib: 
+* Dlib is a modern C++ toolkit containing machine learning algorithms and tools for creating complex software in C++ to solve real world problems.
+
+
 # Computer network:
 
 ### I. Basic
