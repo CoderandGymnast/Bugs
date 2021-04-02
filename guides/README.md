@@ -56,6 +56,7 @@ netstat -tln
 * Types: 
   - Wired network adapter.
   - Wireless network adapter.
+  
 E.g., NIC (Network Interface Card/Ethernet adapter).
 
 ### II. Commands: 
@@ -76,6 +77,7 @@ ipconfig
 * Definition: 
   -  A point of interconnection between a computer and a private or public network.
   - Can be a NIC or software.
+  
 E.g., Loopback interface is not a physical device but a piece of software simulating a network interface
 
 * Conslusion: NIC contains network interfaces.
