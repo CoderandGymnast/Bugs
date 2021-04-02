@@ -96,6 +96,8 @@ E.g., Loopback interface is not a physical device but a piece of software simula
 * Rounter: 
   - Physical rounters: Connect to both physical networks & virtual networks.
 
+### VI. Others:
+* INET (Internet Networking): Any network that uses the Internet Protocol (IP), e.g., LAN.
 
 # UNIX-like authentication/authorization: 
 ## I. Definitions:
