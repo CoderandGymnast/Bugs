@@ -99,6 +99,11 @@ E.g., Loopback interface is not a physical device but a piece of software simula
 ### VI. Others:
 * INET (Internet Networking): Any network that uses the Internet Protocol (IP), e.g., LAN.
 
+### VII. Check connection between multiple computers over LAN: 
+```
+ping [LAN IP address]
+```
+
 # UNIX-like authentication/authorization: 
 ## I. Definitions:
 * User environment: User variable environments
