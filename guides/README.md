@@ -59,4 +59,12 @@ netstat -tln
   - Wireless network adapter.
 E.g., NIC (Network Interface Card/Ethernet adapter).
 
+### II. Commands: 
+1. Check LAN IP address: 
+* Windows: Wireless LAN adapter Wi-Fi.
+  - Solution 1: 
+```
+ipconfig
+```
 
+  - Solution 2: Wifi Settings.
