@@ -76,6 +76,12 @@ sudo apt-get update && sudo apt-get install espeak
 sudo dpkg -i <file name>.deb
 ```
 
+3. "mpeg-4 aac decoder h.264 decoder are required to play the file": 
+* Solution: 
+```
+sudo apt-get install libavcodec58 ffmpeg
+```
+
 ## III. Kali Linux: 
 1. "Failed to execute child process "dbus-lunch"": 
 * Reason: Missing dependency **dbus-lunch**.
