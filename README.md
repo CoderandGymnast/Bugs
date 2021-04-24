@@ -87,6 +87,9 @@ sudo apt install ubuntu-restricted-extras
 4. "Exclusivity flag on, cannot modify" - VLC: 
 * Solution: Restart machine.
 
+5. Can not stream video over network.
+* Solution: [link]https://www.youtube.com/watch?v=g5yukRgfk5Y
+
 ## III. Kali Linux: 
 1. "Failed to execute child process "dbus-lunch"": 
 * Reason: Missing dependency **dbus-lunch**.
