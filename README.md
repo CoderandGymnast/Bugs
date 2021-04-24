@@ -84,6 +84,9 @@ sudo add-apt-repository multiverse \
 sudo apt install ubuntu-restricted-extras
 ```
 
+4. "Exclusivity flag on, cannot modify" - VLC: 
+* Solution: Restart machine.
+
 ## III. Kali Linux: 
 1. "Failed to execute child process "dbus-lunch"": 
 * Reason: Missing dependency **dbus-lunch**.
