@@ -79,7 +79,9 @@ sudo dpkg -i <file name>.deb
 3. "mpeg-4 aac decoder h.264 decoder are required to play the file": 
 * Solution: 
 ```
-sudo apt-get install libavcodec58 ffmpeg
+sudo apt-get update \
+sudo add-apt-repository multiverse \
+sudo apt install ubuntu-restricted-extras
 ```
 
 ## III. Kali Linux: 
