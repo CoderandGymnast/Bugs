@@ -90,6 +90,16 @@ sudo apt install ubuntu-restricted-extras
 5. Can not stream video over network.
 * Solution: [link]https://www.youtube.com/watch?v=g5yukRgfk5Y
 
+### II.1. Netem: 
+1. "Error: Qdisc not found. To create specify NLM_F_CREATE flag.": 
+* Reason: Could be either: 
+ - Syntax error.
+ - There is no previous loss emulator to be changed.
+* Solution: 
+```
+tc qdisc add dev [Network interface] root netem loss [Loss percentage]%
+```
+
 ## III. Kali Linux: 
 1. "Failed to execute child process "dbus-lunch"": 
 * Reason: Missing dependency **dbus-lunch**.
