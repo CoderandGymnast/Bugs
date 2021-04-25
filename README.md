@@ -93,8 +93,8 @@ sudo apt install ubuntu-restricted-extras
 ### II.1. Netem: 
 1. "Error: Qdisc not found. To create specify NLM_F_CREATE flag.": 
 * Reason: Could be either: 
- - Syntax error.
- - There is no previous loss emulator to be changed.
+ * Syntax error.
+ * There is no previous loss emulator to be changed.
 * Solution: 
 ```
 tc qdisc add dev [Network interface] root netem loss [Loss percentage]%
