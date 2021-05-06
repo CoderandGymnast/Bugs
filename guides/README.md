@@ -1,3 +1,10 @@
+# Make: 
+## Installation: 
+3 solutions: 
+1. Manually.
+2. Use 'make' in MinGW.
+3. Install through Chocolatey.
+
 # Others:
 ## I. Set up Snowboy environment on Kali WSLII: 
 ```
