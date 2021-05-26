@@ -163,5 +163,7 @@ python -m pip install https://files.pythonhosted.org/packages/0e/ce/f8a3cff33ac0
 2. Debug or application's behaviors does not make sence:
 * Solution: Just rebuild the application.
 
-
+## VII. Microsoft SQL Management Studio: 
+ 1. "Index was outside the bounds of the array" when create "New Database Diagram":
+ * Solution: Restart the program.
 
