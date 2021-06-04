@@ -5,7 +5,7 @@
 1. "/usr/bin/ld: cannot find -lcblas": 
 * Reason: ATLAS has not installed.
 * Solution:
-
+```
 sudo add-apt-repository universe &\
 sudo add-apt-repository main &\
 sudo apt-get update &\
