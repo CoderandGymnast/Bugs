@@ -172,4 +172,10 @@ python -m pip install https://files.pythonhosted.org/packages/0e/ce/f8a3cff33ac0
  * Reason: When compile a program,  linker cannot find the definition of a linked object, it issues an “undefined reference” error.
  * Solution: Compile the missing ".cpp" file.
  E.g., "Graph.cpp:33: undefined reference to `Point::Point(int)" because of "g++ -g Graph.cpp main.cpp -o main.exe", must change into "g++ -g Graph.cpp Point.cpp main.cpp -o main.exe".
+ 
+ 2. "addressSanitizer: heap-buffer-overflow on address": 
+- Reason: Index out of bound.
+
+3. "addressSanitizer: buffer-overflow...":
+- Reason: Out of memories.
 
