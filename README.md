@@ -176,6 +176,20 @@ python -m pip install https://files.pythonhosted.org/packages/0e/ce/f8a3cff33ac0
  2. "addressSanitizer: heap-buffer-overflow on address": 
 - Reason: Index out of bound.
 
-3. "addressSanitizer: buffer-overflow...":
+3. "addressSanitizer: stack-overflow...":
 - Reason: Out of memories.
+
+4. "member access within misaligned address":
+- Reason: Can not cast NULL to ADT (Abstract Data Type):
+- Example:
+```C++
+// Input: NULL.
+ListNode* reverse(ListNode* node,ListNode* newNode){ // Can not cast NULL to ListNode*.
+     if(!node) return NULL:
+     if(!node->next){ // This line throw error.
+          ...
+     }
+     ...
+}
+```
 
