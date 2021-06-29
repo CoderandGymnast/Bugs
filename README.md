@@ -193,3 +193,21 @@ ListNode* reverse(ListNode* node,ListNode* newNode){ // Can not cast NULL to Lis
 }
 ```
 
+5. "malloc-delete mismatch":
+- Reason: Inappropriate way to initiate pointer.
+- Example: 
+```C++
+void push(ListNode**head,int val){
+     ListNode* newNode=(ListNode*)malloc(sizeof(ListNode)); // This line causes error. Change to "ListNode* newNode=new ListNode(val);
+     newNode->val=val;
+     newNode->next=NULL;
+     if(!*head){
+          *head=newNode; // This line throw error.
+          return;
+     }
+     
+     (*head)->next=newNode;
+}
+
+```
+
