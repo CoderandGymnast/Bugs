@@ -211,3 +211,20 @@ void push(ListNode**head,int val){
 
 ```
 
+6. "Reference to non-static member function must be called":
+- Reason: Use undefined reference.
+- Example: 
+```C++
+ListNode* swapPairs(ListNode* head) {
+     if(!head||!head->next) return head;
+     bool isEnd=(!head->next->next)?true:false;
+     if(!isEnd) 
+          ListNode*next=swapPairs(head->next->next);
+     ListNode*ans=head->next;
+     ans->next=head;
+     (head->next)=(isEnd==true?NULL:next); // "next" is not defined.
+     head->next=next;
+     return ans;
+    }
+```
+
