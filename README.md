@@ -6,7 +6,7 @@
 * Reason: ATLAS has not installed.
 * Solution:
 ```
-sudo add-apt-repository universe &\
+sudo add-apt-repository universe &\c
 sudo add-apt-repository main &\
 sudo apt-get update &\
 sudo apt-get install -y libatlas-base-dev liblapack-dev libblas-dev
@@ -228,3 +228,13 @@ ListNode* swapPairs(ListNode* head) {
     }
 ```
 
+7. "C++ error: terminate called after throwing an instance of 'std::bad_alloc'":
+- Examples: 
+```C++
+    vector<vector<int>> paths ={
+        {0,1,2,3,4},
+        {2,3,4},
+        {4,0,1,2,3}
+    };
+    cout << paths[3][0] << endl; // "3" cause index out of bound and also cause this error.
+```
