@@ -1,3 +1,13 @@
+# Hadoop: 
+## I. HDFS (Hadoop Distributed File System):
+### I.1. Terminologies:
+ - Commodity hardware = off-the-shelf hardware: Thiết bị phần cứng thông dụng.
+
+
+
+
+
+
 # Make: 
 ## Installation: 
 3 solutions: 
