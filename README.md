@@ -56,6 +56,13 @@ sudo apt-get update && sudo apt-get install espeak
 ```
 * [Reference](https://stackoverflow.com/questions/32499491/python-text-to-speech-using-pyttsx).
 
+5. "ModuleNotFoundError: No module named 'deepspeech'": 
+* Solution: Reinstall deepspeech-gpu.
+```
+pip uninstall deepspeech-gpu
+pip install deepspeech-gpu
+```
+
 ## II. Ubuntu: 
 1. "E: Could not get lock /var/lib/dpkg/lock-frontend": 
 * Reason: Another process is using the resource.
