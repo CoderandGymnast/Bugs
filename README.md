@@ -34,9 +34,12 @@ import snowboydetect
 1. "AttributeError: Could not find PyAudio; check installation": 
 * Reason: Missing dependency **PyAudio**.
 * Solution: 
+ UNIX-like: 
 ```
 sudo apt-get install portaudio19-dev python-all-dev python3-all-dev && pip install pyaudio
 ```
+ Windows: 
+ [Manually install PyAudio](https://www.youtube.com/watch?v=CeFWBzzcj8o)
 
 2. GCC: 
 * Solution: 
